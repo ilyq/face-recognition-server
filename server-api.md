@@ -7,7 +7,7 @@
 ./face-server -addr :8080 -det-model ./models/face_detection.rkme -rec-model ./models/face_recognition.rkme
 
 # onnx
-./face-server -addr :8080 -det-model ./models/face_detection.dfme -rec-model ./models/face_recognition.dfme
+face-server.exe -addr :8080 -det-model ./models/face_detection.dfme -rec-model ./models/face_recognition.dfme
 ```
 
 常用启动参数：
